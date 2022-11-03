@@ -1,0 +1,30 @@
+.navbar {
+    background-color: antiquewhite;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: hsl(233, 8%, 79%);
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+
+
+/* ### Neutral
+hsl(35, 77%, 62%); */
+/* Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
