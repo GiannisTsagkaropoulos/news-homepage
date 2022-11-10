@@ -12,18 +12,23 @@
 
 <body>
     <nav class="navbar">
-        <a href="https://freecodecamp.org" class="logo">
-        </a>
+
         <ul class="nav-links">
-            <li class="nav-item px-4"><img src="../news-homepage-main/assets/images/logo.svg" alt="w news logo">
+            <li class="nav-item px-4" id="logo"><img src="../news-homepage-main/assets/images/logo.svg"
+                    alt="w news logo">
             </li>
-            <li class="nav-item px-4"></li>
-            <li class="nav-item px-4"> Home</a></li>
-            <li class="nav-item px-4"> New</a></li>
-            <li class="nav-item px-4"> Popular</a></li>
-            <li class="nav-item px-4"> Trending</a></li>
-            <li class="nav-item px-4"> Categories</a></li>
+            <li class="nav-item my-link px-4"></li>
+            <li class="nav-item my-link px-4"> Home</li>
+            <li class="nav-item my-link px-4"> New</li>
+            <li class="nav-item my-link px-4"> Popular</li>
+            <li class="nav-item my-link px-4"> Trending</li>
+            <li class="nav-item my-link px-4"> Categories</li>
+            <a href="javascript:void(0);" id="burger" class="hide" onclick="myFunction()">
+                <img src="../news-homepage-main/assets/images/burger.png" class="h-14 w-13" alt="">
+                <i class="fa fa-bars"></i>
         </ul>
+
+        </a>
     </nav>
     <div class="main-body">
         <img class="main-photo object-fit: cover;"
@@ -62,25 +67,31 @@
                 <li>
                     <div class="photo-block">
                         <img src="../news-homepage-main/assets/images/image-retro-pcs.jpg" alt="">
-                        <h2>01</h2>
-                        <h3> Reviving Retro PCs<h3>
-                                <p>What happens when old PCs are given modern upgrades? </p>
+                        <div class="no-picture-block">
+                            <h2>01</h2>
+                            <h3> Reviving Retro PCs<h3>
+                                    <p>What happens when old PCs are given modern upgrades? </p>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div class="photo-block">
                         <img src="../news-homepage-main/assets/images/image-top-laptops.jpg" alt="">
-                        <h2>02</h2>
-                        <h3> Top 10 Laptops of 2022<h3>
-                                <p>Our best picks for various needs and budgets. </p>
+                        <div class="no-picture-block">
+                            <h2>02</h2>
+                            <h3> Top 10 Laptops of 2022<h3>
+                                    <p>Our best picks for various needs and budgets. </p>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div class="photo-block">
                         <img src="../news-homepage-main/assets/images/image-gaming-growth.jpg" alt="">
-                        <h2>03</h2>
-                        <h3> The Growth of Gaming<h3>
-                                <p>How the pandemic has sparked fresh opportunities. </p>
+                        <div class="no-picture-block">
+                            <h2>03</h2>
+                            <h3> The Growth of Gaming<h3>
+                                    <p>How the pandemic has sparked fresh opportunities. </p>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -90,5 +101,9 @@
         </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"
+    integrity="sha512-ew6biq+ZLL9Oatatxp3TMwzqfYWjPNVj555KxiE2mV5Sc2/1Z5SOWSbViBH+KXU788ESsXDa5m0cgRKTBqO44w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
 
 </html>
