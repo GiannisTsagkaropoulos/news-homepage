@@ -18,6 +18,7 @@ $(window).resize(function () {
     console.log(isPressed)
     if ($(window).width() > 900 && isPressed == true) {//to z index einai 1 ara to kanw -1
         $(".div-class").removeClass("toggle-burger");
+        // $(".div-class").removeClass("hidden");
     }
     if ($(window).width() < 900 && isPressed == true) {
         $(".div-class").addClass("toggle-burger");
