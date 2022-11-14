@@ -534,7 +534,7 @@ body {
     }
 
     .mobile-nav {
-        transform: translate(20%) !important;
+        transform: translate(30%) !important;
         transition: transform 0.5s ease-in-out;
     }
 
