@@ -3,7 +3,7 @@
 ## Welcome! 👋
 
 ![The look of the site](./designs.jpg) 
-It's a basic news homapage (there are hovering effects but nothing is clickable). The most challenging part was creating the responsive navbar without using css frameworks to get around the problem.
+It's a basic news homapage. The most challenging part was creating the responsive navbar without using css frameworks to get around the problem.
 
 #### What I learned
 
